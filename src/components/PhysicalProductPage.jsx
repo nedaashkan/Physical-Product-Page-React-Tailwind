@@ -1,6 +1,7 @@
 import Header from "./Header";
 import PhysicalProductImgSLiderInfo from "./PhysicalProductImgSLiderInfo";
 import PhysicalProductInfoOption from "./PhysicalProductInfoOption";
+import Footer from "./Footer";
 
 function PhysicalProductPage() {
   return (
@@ -10,6 +11,7 @@ function PhysicalProductPage() {
         <PhysicalProductImgSLiderInfo />
         <PhysicalProductInfoOption />
       </div>
+      <Footer />
     </div>
   );
 }

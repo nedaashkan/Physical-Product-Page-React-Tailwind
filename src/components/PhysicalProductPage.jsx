@@ -1,7 +1,15 @@
+import Header from "./Header";
+import PhysicalProductImgSLiderInfo from "./PhysicalProductImgSLiderInfo";
+import PhysicalProductInfoOption from "./PhysicalProductInfoOption";
+
 function PhysicalProductPage() {
   return (
-    <div className="PhysicalProductPage">
-      <h1 className="text-3xl font-bold underline">hi</h1>
+    <div className="PhysicalProductPage  bg-black">
+      <Header />
+      <div className="flex-col md:flex-row lg:flex-row">
+        <PhysicalProductImgSLiderInfo />
+        <PhysicalProductInfoOption />
+      </div>
     </div>
   );
 }

@@ -1,4 +1,3 @@
-// import Footer from "./Footer";
 function PhysicalProductPage() {
   return (
     <div className="PhysicalProductPage">

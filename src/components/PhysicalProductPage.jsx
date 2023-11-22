@@ -6,7 +6,7 @@ function PhysicalProductPage() {
   return (
     <div className="PhysicalProductPage  bg-black">
       <Header />
-      <div className="flex-col md:flex-row lg:flex-row">
+      <div className="flex  space-x-2">
         <PhysicalProductImgSLiderInfo />
         <PhysicalProductInfoOption />
       </div>

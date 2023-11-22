@@ -3,7 +3,7 @@ import ProductInfo from "./ProductInfo";
 
 function PhysicalProductImgSLiderInfo() {
   return (
-    <div className="PhysicalProductImgSLiderInfo">
+    <div className="PhysicalProductImgSLiderInfo w-3/5">
       <div className="flex-col">
         <ProductImgSLider />
         <ProductInfo />

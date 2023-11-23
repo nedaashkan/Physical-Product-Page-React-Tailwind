@@ -1,7 +1,10 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSquareFull } from "@fortawesome/free-solid-svg-icons";
+
 function PhysicalProductInfoOption() {
   return (
-    <div classNameName="PhysicalProductInfoOption w-full lg:min-w-2/6 md:min-w-2/6">
-      <div className="flex flex-col mx-2 p-1 md:p-3 lg:p-3 md:mx-0 lg:mx-0">
+    <div classNameName="PhysicalProductInfoOption w-full lg:w-2/6 md:w-2/6">
+      <div className="flex flex-col mx-2 p-1 md:p-2 lg:p-3 md:mx-0 lg:mx-0">
         {/* product info */}
         <div className="flex flex-col">
           <h2 className="hidden md:block lg:block text-[0.9rem] md:text-[0.8rem] lg:text-[0.9rem] text-center text-[#CFCFCF] mb-3 md:mb-5 lg:mb-6 ">
@@ -23,7 +26,7 @@ function PhysicalProductInfoOption() {
           </h3>
           <li
             dir="rtl"
-            className="text-[0.5rem] md:text-[0.9rem] lg:text-[0.9rem] text-[#3A3A3A] text-center md:text-start lg:text-start mb-2 md:mb-1"
+            className="text-[0.5rem] md:text-[0.9rem] lg:text-[0.8rem] text-[#3A3A3A] text-center md:text-start lg:text-start mb-2 md:mb-1"
           >
             <span className="text-[0.7rem] md:text-[0.5rem] lg:text-[0.7rem]  text-[#CFCFCF]">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم لورم ایپسوم
@@ -31,20 +34,21 @@ function PhysicalProductInfoOption() {
           </li>
           <li
             dir="rtl"
-            className="text-[0.5rem] md:text-[0.9rem] lg:text-[0.9rem] text-[#3A3A3A] text-center md:text-start lg:text-start mb-2 md:mb-1"
+            className="text-[0.5rem] md:text-[0.9rem] lg:text-[0.8rem] text-[#3A3A3A] text-center md:text-start lg:text-start mb-2 md:mb-1"
           >
             <span className="text-[0.7rem] md:text-[0.5rem] lg:text-[0.7rem]  text-[#CFCFCF]">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم لورم ایپسوم
             </span>
-          </li>
+          </li>{" "}
           <li
             dir="rtl"
-            className="text-[0.5rem] md:text-[0.9rem] lg:text-[0.9rem] text-[#3A3A3A] text-center md:text-start lg:text-start mb-2 md:mb-1"
+            className="text-[0.5rem] md:text-[0.9rem] lg:text-[0.8rem] text-[#3A3A3A] text-center md:text-start lg:text-start mb-2 md:mb-1"
           >
             <span className="text-[0.7rem] md:text-[0.5rem] lg:text-[0.7rem]  text-[#CFCFCF]">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم لورم ایپسوم
             </span>
           </li>
+          س
         </div>
         <br />
         <br />
@@ -116,13 +120,24 @@ function PhysicalProductInfoOption() {
         <br />
         <br />
 
-        <div className="flex flex-col">
-          <div className="flex flex-row-reverse justify-end">
-            <div className="h-5 w-5 bg-orange-400"></div>
-            <h3 className="">.تحویل اکسپرس اِیمور را رایگان تجربه کنید</h3>
+        <div className="flex flex-col  justify-center items-center">
+          <div className="flex flex-row-reverse justify-center items-center">
+            <FontAwesomeIcon
+              icon={faSquareFull}
+              className="text-[#E6E6E6] text-[0.8rem] md:text-[1rem] lg:text-[1.5rem] p-[4px]"
+            />
+            <h3 className="text-[0.9rem] md:text-[0.8rem] lg:text-[1rem] text-center text-[#CFCFCF] mb-2">
+              .تحویل اکسپرس
+              <span className="text-[#00d5ff]"> اِیمور</span>
+              را رایگان تجربه کنید
+            </h3>
           </div>
-          <h4 className="">ارسال بازه __ تا __ نام ماه</h4>
-          <button className="text-start">افزودن به سبد خرید</button>
+          <h4 className="text-[0.9rem] md:text-[0.8rem] lg:text-[1rem] text-[#5e5d5d] text-center">
+            ارسال بازه __ تا __ نام ماه
+          </h4>
+          <button className=" text-[0.9rem] md:text-[1rem] lg:text-[1.2rem] text-center bg-[#00d5ff] lg:p-1 w-[50%] md:w-full lg:w-full mt-3">
+            افزودن به سبد خرید
+          </button>
         </div>
       </div>
     </div>

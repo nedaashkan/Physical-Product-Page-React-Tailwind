@@ -119,7 +119,7 @@ function PhysicalProductInfoOption() {
         <br />
         <br />
         <br />
-
+        {/* add to shopping cart */}
         <div className="flex flex-col  justify-center items-center">
           <div className="flex flex-row-reverse justify-center items-center">
             <FontAwesomeIcon
@@ -144,6 +144,3 @@ function PhysicalProductInfoOption() {
   );
 }
 export default PhysicalProductInfoOption;
-// <h1 classNameName="text-[0.9rem] md:text-[1.3rem] lg:text-[2.2rem] text-[#E6E6E6]">
-//   hi my name is neda
-// </h1>;

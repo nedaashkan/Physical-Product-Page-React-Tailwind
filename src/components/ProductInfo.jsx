@@ -51,7 +51,7 @@ export default function ProductInfo() {
       </div>
       {/* more info btn */}
       <div className="flex-col justify-center lg:ml-2 md:ml-2 px-5 py-1 lg:py-1 md:py-1 bg-[#2E2E2E] cursor-pointer">
-        <p className="text-[0.5rem] md:text-[1rem] lg:text-[1rem] text-center  text-[#CFCFCF]">
+        <p className="text-[0.5rem] md:text-[0.7rem] lg:text-[0.8rem] text-center  text-[#CFCFCF]">
           مشاهده بیشتر
         </p>
         <button className="text-[0.5rem] md:text-[1rem] lg:text-[1rem] text-center text-[#CFCFCF] w-full">

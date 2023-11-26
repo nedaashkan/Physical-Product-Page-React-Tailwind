@@ -124,7 +124,7 @@ function PhysicalProductInfoOption() {
           <div className="flex flex-row-reverse justify-center items-center">
             <FontAwesomeIcon
               icon={faSquareFull}
-              className="text-[#E6E6E6] text-[0.8rem] md:text-[1rem] lg:text-[1.5rem] p-[4px]"
+              className="text-[0.8rem] md:text-[1rem] lg:text-[1.5rem] p-[4px]"
             />
             <h3 className="text-[0.9rem] md:text-[0.8rem] lg:text-[1rem] text-center text-[#CFCFCF] mb-2">
               .تحویل اکسپرس

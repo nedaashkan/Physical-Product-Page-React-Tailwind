@@ -1,9 +1,12 @@
 import "./App.css";
-import PhysicalProductPage from "./components/PhysicalProductPage";
+// import PhysicalProductPage from "./components/PhysicalProductPage";
+import ContactPage from "./components/ContactPage/ContactPage.jsx";
+
 function App() {
   return (
     <div className="App">
-      <PhysicalProductPage />
+      {/* <PhysicalProductPage /> */}
+      <ContactPage />
     </div>
   );
 }

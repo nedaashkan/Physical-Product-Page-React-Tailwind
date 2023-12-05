@@ -2,8 +2,7 @@ import "./App.css";
 // import PhysicalProductPage from "./components/PhysicalProductPage";
 // import ContactPage from "./components/ContactPage/ContactPage.jsx";
 // import QuestionPage from "./components/QuestionPage/QuestionPage.jsx";
-// MyOrders
-import MyOrders from "./components/MyOrdersDetails/MyOrders.jsx";
+import AddressPage from "./components/AddressPage/AddressPage.jsx";
 
 function App() {
   return (
@@ -11,7 +10,7 @@ function App() {
       {/* <PhysicalProductPage /> */}
       {/* <ContactPage /> */}
       {/* <QuestionPage /> */}
-      <MyOrders />
+      <AddressPage />
     </div>
   );
 }

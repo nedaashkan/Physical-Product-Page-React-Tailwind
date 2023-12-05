@@ -1,6 +1,6 @@
 export default function ShoppingCartCost2() {
   return (
-    <div className="ShoppingCartCost-container w-[50%] md:w-[30%]   lg:w-[30%] p-[1em] border-[1px] border-[solid] border-[#707070] bg-[#0F0F0F] order-2 lg:order-1 md:order-1">
+    <div className="w-[80%] md:w-[30%] lg:w-[35%] p-[1em] border-[1px] border-[solid] border-[#707070] bg-[#0F0F0F] order-2 lg:order-1 md:order-1 mt-3 lg:mt-0 lg:mt-0">
       <div className="flex justify-between items-center">
         <div className="prise-container - flex items-center">
           <div className="toman-persian - text-[#E6E6E6] text-center text-[0.6rem] md:text-[0.7rem] lg:text-[0.9rem] not-italic font-normal leading-[3.125rem] tracking-[0.00938rem] pr-[0.3em]">
@@ -10,7 +10,7 @@ export default function ShoppingCartCost2() {
             999,999,999
           </div>
         </div>
-        <p className="ShoppingCartCost-text - text-[#E6E6E6] text-right text-right text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] not-italic font-normal leading-[3.125rem] tracking-[0.0125rem]">
+        <p className="ShoppingCartCost-text - text-[#E6E6E6] text-right text-[0.8rem] md:text-[0.9rem] lg:text-[1.1rem] not-italic font-normal leading-[3.125rem] tracking-[0.0125rem]">
           جمع کل سبد خرید
         </p>
       </div>

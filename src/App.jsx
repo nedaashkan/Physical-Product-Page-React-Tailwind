@@ -2,7 +2,7 @@ import "./App.css";
 // import PhysicalProductPage from "./components/PhysicalProductPage";
 // import ContactPage from "./components/ContactPage/ContactPage.jsx";
 // import QuestionPage from "./components/QuestionPage/QuestionPage.jsx";
-import AddressPage from "./components/AddressPage/AddressPage.jsx";
+import AddressPaymentPage from "./components/AddressPaymentPage/AddressPaymentPage.jsx";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* <PhysicalProductPage /> */}
       {/* <ContactPage /> */}
       {/* <QuestionPage /> */}
-      <AddressPage />
+      <AddressPaymentPage />
     </div>
   );
 }
